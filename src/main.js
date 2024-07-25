@@ -2,7 +2,7 @@ import Swiper from 'swiper';
 import 'swiper/css';
 
 const createMarkup = ({ review, avatar_url, author }) => {
-  return `<li class="rev-list-item">
+  return `<li class="rev-list-item ">
         <img src="${avatar_url}" alt="${author}" class="rev-item-img">
         <h3 class="rev-item-title">${author}</h3>
         <p class="rev-item-text">${review}</p>
@@ -28,6 +28,9 @@ fetch('https://portfolio-js.b.goit.study/api/reviews')
     const swiper = new Swiper('.swiper-container', {
       direction: 'horizontal',
       loop: true,
+      slidesPerView: 4,
+      slidesPerGroup: 4,
+      spaceBetween: 16,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
