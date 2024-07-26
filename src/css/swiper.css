@@ -1,0 +1,33 @@
+.container {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 1376px;
+  height: 458px;
+}
+.rev-item-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+}
+.rev-item-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: rgba(250, 250, 250, 0.6);
+}
+.swiper-button-next {
+  position: absolute;
+  top: 90%;
+  left: 60%;
+}
+.swiper-button-prev {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+}
+/* .container .swiper .swiper-wrapper {
+  width: 1376px;
+} */
