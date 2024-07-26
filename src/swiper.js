@@ -11,11 +11,11 @@ var swiper = new Swiper('.mySwiper', {
 });
 
 const createMarkup = ({ review, avatar_url, author }) => {
-  return `<div class="swiper-slide">
+  return `<li class="swiper-slide">
         <img src="${avatar_url}" alt="${author}" class="rev-item-img">
         <h3 class="rev-item-title">${author}</h3>
         <p class="rev-item-text">${review}</p>
-      </div>`;
+      </li>`;
 };
 
 const createList = arrayList => {
