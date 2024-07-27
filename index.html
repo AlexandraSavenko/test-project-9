@@ -5,21 +5,36 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <style>
+      .links-to-pages {
+        display: flex;
+        flex-direction: column;
+      }
+      .links-p {
+        font-size: 60px;
+      }
+    </style>
     
     <script type="module" crossorigin src="/test-project-9/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/test-project-9/assets/vendor-f5ebb2c2.js">
-    <link rel="stylesheet" href="/test-project-9/assets/vendor-7c8ef494.css">
+    <link rel="modulepreload" crossorigin href="/test-project-9/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/test-project-9/assets/vendor-d920e91f.js">
+    <link rel="stylesheet" href="/test-project-9/assets/vendor-b51df72b.css">
     <link rel="stylesheet" href="/test-project-9/assets/index-cdbccdea.css">
   </head>
   <body>
     <h2 class="reviews-title">reviews</h2>
-    <div class="swiper-container">
+    <div class="swiper-container swiper">
       <ul class="reviews-list swiper-wrapper"></ul>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-scrollbar"></div>
     </div>
-    <a href="./swiper.html">Go to swiper</a>
+    <div class="links-to-pages">
+      <a class="links-p" href="./swiper.html">Go to swiper</a>
+      <a class="links-p" href="./swiper-Kos.html">Go to swiper-Kos</a>
+      <a class="links-p" href="./swiper-pr9.html">Go to swiper-pr9</a>
+    </div>
+
     
   </body>
 </html>

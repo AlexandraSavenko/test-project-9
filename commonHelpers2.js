@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";import{S as e,N as i,P as s}from"./assets/vendor-d920e91f.js";new e(".mySwiper",{modules:[i,s],breakpoints:{320:{slidesPerView:1},768:{slidesPerView:2,spaceBetween:18},1280:{slidesPerView:3,spaceBetween:25}},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},pagination:{el:".swiper-pagination"}});
+//# sourceMappingURL=commonHelpers2.js.map
