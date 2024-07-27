@@ -1,9 +1,27 @@
 var swiper = new Swiper('.mySwiper', {
   direction: 'horizontal',
   //   loop: true,
-  slidesPerView: 4,
-  slidesPerGroup: 4,
-  spaceBetween: 16,
+  // slidesPerView: 4,
+
+  // spaceBetween: 16,
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+      spaceBetween: 20,
+    },
+    1440: {
+      slidesPerView: 4,
+      slidesPerGroup: 1,
+      spaceBetween: 20,
+    },
+  },
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',

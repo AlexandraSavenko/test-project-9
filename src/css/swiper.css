@@ -6,7 +6,8 @@
 .container {
   margin: 0 auto;
   padding-top: 20px;
-  width: 1376px;
+  /* width: 1376px; */
+  width: 344px;
   height: 458px;
 }
 .rev-item-title {
@@ -36,3 +37,20 @@
 /* .container .swiper .swiper-wrapper {
   width: 1376px;
 } */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 704px;
+  }
+  .swiper-slide {
+    width: calc(100% / 2 - 16px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1376px;
+  }
+  .swiper-slide {
+    width: calc(100% / 4 - 16px);
+  }
+}

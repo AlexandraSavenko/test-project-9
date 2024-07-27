@@ -5,17 +5,31 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <style>
+      .links-to-pages {
+        display: flex;
+        flex-direction: column;
+      }
+      .links-p {
+        font-size: 60px;
+      }
+    </style>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <h2 class="reviews-title">reviews</h2>
-    <div class="swiper-container">
+    <div class="swiper-container swiper">
       <ul class="reviews-list swiper-wrapper"></ul>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-scrollbar"></div>
     </div>
-    <a href="./swiper.html">Go to swiper</a>
+    <div class="links-to-pages">
+      <a class="links-p" href="./swiper.html">Go to swiper</a>
+      <a class="links-p" href="./swiper-Kos.html">Go to swiper-Kos</a>
+      <a class="links-p" href="./swiper-pr9.html">Go to swiper-pr9</a>
+    </div>
+
     <script type="module" src="./main.js" type="module"></script>
   </body>
 </html>
